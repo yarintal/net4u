@@ -1,4 +1,12 @@
-#######math: *   / +    / -  / ** בחזקת /  \lehalek=/
-num=4/2
-print("Your number is: " + str(num))
-print(type(num))
+'''
+אלפים=4
+מאות=5
+עשרות=6
+אחדות=7
+'''
+num=4567
+#תרגיל מספר אחד
+print("Alafim= " + str(num//1000))
+
+#תרגיל מספר שתיים
+print("Meot= " + str(num%1000//100))
