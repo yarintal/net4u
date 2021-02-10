@@ -1,26 +1,7 @@
-a=12
-b=11.56
-c="yarin tal"
-
-#this is integer
-print (a)
-print (type(a))
-
-#this is Float
-print (b)
-print (type(b))
-
-#this is string
-print (c)
-print (type(c))
-
-
 #עבודה
-name=input ("enter you're name please: ")
-age="23"
+name=input ("Enter you're name: ")
+age=input ("Enter you age: ")
 mail=input ("Enter your mail: ")
-print(mail)
-print(type(mail))
 
-print("Hello "," \n my Name is: " + name + " \nMy age is: " +str(age))
+print("\nFull Name is: " + name + " \nMy age is: " + age + "\nYour mail: " + mail)
 
