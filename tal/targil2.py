@@ -4,7 +4,7 @@
 עשרות=6
 אחדות=7
 '''
-num=4567
+num=int(input("Enter a number with 4 digits: "))
 #תרגיל מספר אחד
 print("Alafim= " + str(num//1000))
 
